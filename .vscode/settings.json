@@ -1,0 +1,22 @@
+{
+    "[python]": {
+      "editor.formatOnSave": true,
+      "editor.codeActionsOnSave": {
+        "source.fixAll": "explicit",
+        "source.organizeImports": "explicit"
+      },
+      "editor.defaultFormatter": "charliermarsh.ruff"
+    },
+    "ruff.lint.args": ["--config=.ruff.toml"],
+
+    "files.exclude": {
+      "**/.git": true,
+      "**/.svn": true,
+      "**/.hg": true,
+      "**/CVS": true,
+      "**/.DS_Store": true,
+      "**/Thumbs.db": true,
+      "**/.ruby-lsp": true,
+      "venv": true
+    }
+  }
