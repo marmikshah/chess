@@ -1,6 +1,5 @@
-from overrides import overrides
-
 from game.board import Board
+from overrides import overrides
 
 from .base import BaseEngine
 
