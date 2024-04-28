@@ -7,7 +7,7 @@
       },
       "editor.defaultFormatter": "charliermarsh.ruff"
     },
-    "ruff.lint.args": ["--config=.ruff.toml"],
+    "ruff.lint.args": ["--config=pyproject.toml"],
 
     "files.exclude": {
       "**/.git": true,
